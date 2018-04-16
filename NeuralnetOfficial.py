@@ -286,9 +286,9 @@ def create_targets(output):
 # LEARNING SCRIPT
 # n = Network(num_input, [num_hidden], num_output)
 # n.learning(create_inputs(), create_targets(num_output), iterations, RATE)
-# n.save("net6.txt")
+# n.save("new_net.txt")
 # test(["./0/Immagine5.pgm", "./1/Immagine5.pgm", "./2/Immagine5.pgm", "./7/Immagine2.pgm"], n)
 
 # ONLY OUTPUT SCRIPT
-n2 = load_net("net4.txt")
+n2 = load_net("net.txt")
 test(["./0/Immagine5.pgm", "./1/Immagine5.pgm", "./2/Immagine5.pgm", "./7/Immagine2.pgm"], n2)

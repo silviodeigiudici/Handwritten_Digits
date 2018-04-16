@@ -6,7 +6,7 @@ In the directory there are training set. For now there are only 4 digits but it'
 The file net.txt is result of processing learning.
 
 TODO:
--Adding comments
--Optimize algorithm and code
--Extend number of digits
--Write it in c++
+[] Adding comments
+[] Optimize algorithm and code
+[] Extend number of digits
+[] Write it in c++
